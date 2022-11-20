@@ -6,16 +6,16 @@
 //COLS = 5
 
 int matrix1[ROWS][COLS] = { {1, 2, 3, 4, 5},
-						   {6, 7, 8, 9, 10},
-						   {11, 12, 13, 14, 15} };
+			    {6, 7, 8, 9, 10},
+			    {11, 12, 13, 14, 15} };
 
 int matrix2[ROWS][COLS] = { {1, 2, 3, 4, 5},
-						   {6, 7, 8, 9, 10},
-						   {11, 12, 13, 14, 15} };
+			    {6, 7, 8, 9, 10},
+			    {11, 12, 13, 14, 15} };
                            
 int matrix3[ROWS][COLS] = { {0, 2, 3, 4, 0},
-						   {6, 0, 8, 0, 10},
-						   {11, 0, 13, 0, 15} };
+			    {6, 0, 8, 0, 10},
+		            {11, 0, 13, 0, 15} };
 
 cout << (check(matrix1, matrix2) ? "They are equal" : "They are not equal") << endl;
 cout << (check(matrix1, matrix3) ? "They are equal" : "They are not equal") << endl;
