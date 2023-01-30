@@ -25,16 +25,16 @@ int main()
 	Person* people = new Person[n];
 	for (size_t i = 0; i < n; i++)
 	{
-		cout << "Person[" << i << "]->name = ";
+		cout << "Person[" << i << "].name = ";
 		char buffer[255];
 		cin.ignore();
 		cin.getline(buffer, 255);
 		people[i].name = new char[strlen(buffer) + 1];
 		strcpy(people[i].name, buffer);
 
-		cout << "Person[" << i << "]->age = ";
+		cout << "Person[" << i << "].age = ";
 		cin >> people[i].age;
-		cout << "Person[" << i << "]->salary = ";
+		cout << "Person[" << i << "].salary = ";
 		cin >> people[i].salary;
 	}
 
