@@ -2,7 +2,7 @@
 
 int main()
 {
-    // Attention! This solutions only works correctly for displaying numbers from 1 - 99
+    // Attention! This solution only works correctly for displaying numbers from 1 - 99
 	int n = 5;
 
 	int counter = 1;
